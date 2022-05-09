@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio site</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
 <body>
     
-    <div class="header none">
+    <div class="block"></div>
+
+    <header class="header none">
         <h1 class="headerTitle">Oleksandr Yahovyi</h1>
         <p class="headerSubtitle">freelancer, web-developer</p> 
         <div class="headerArrow">
             <img src="./img/arrow.svg" alt="arrow">
         </div>
-    </div>
-   <div class="portfolio none">
+    </header>
+   <main class="portfolio none">
        <div class="container">
          <h2 class="portfolioHeader">Portfolio</h2>
             <div class="portfolioCardWrapper">
@@ -24,32 +27,37 @@
        
                     
                  <div class="card">
-                    <img class="cardImage" src="./img/code_js.jpg" alt="multipage site">
-                     <h3 class="cardTitle"">Multipage site</h3>
-                    <p>multipage site layout</p>
-
+                    <a href="./forestTravel.html" class="cardLink">
+                        <img class="cardImage" src="./img/Forest-travel-card-img.png" alt="multipage site">
+                        <h3 class="cardTitle"">Multipage site</h3>
+                        <p>multipage site layout</p>
+                    </a>
                 </div>
                 <div class="card">
-                    <img class="cardImage" src="./img/laptop-computer.jpg" alt="multipage site">
+                    <a href="./forestTravel.html" class="cardLink">
+                    <img class="cardImage" src="./img/code_js.jpg" alt="multipage site">
                     <h3 class="cardTitle"">Adaptive landing</h3>
                      <p>multipage site layout</p>
-
+                    </a>
                 </div>
                 <div class="card">
+                    <a href="./forestTravel.html" class="cardLink">
                      <img class="cardImage" src="./img/header-bg.jpg" alt="multipage site">
                      <h3 class="cardTitle"">Personal site</h3>
                     <p>multipage site layout</p>
-
+                </a>
                 </div>
                 <div class="card">
+                    <a href="./forestTravel.html" class="cardLink">
                  <img class="cardImage" src="./img/smartWatch.jpg" alt="multipage site">
                  <h3 class="cardTitle"">Online store</h3>
                      <p>multipage site layout</p>
+                    </a>
                  </div>
             </div>
        </div>
-   </div>
-   <div class="footer">
+   </main>
+   <footer class="footer">
        <div class="container">
            <div class="footerRow">
                <div class="footerCopyright footerCol">
@@ -82,7 +90,7 @@
                </div>
            </div>
        </div>
-   </div>
+   </footer>
     <script src="./main.js"></script>
 </body>
 </html>

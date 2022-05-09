@@ -1,0 +1,98 @@
+@media (max-width: 1140px) {
+    .card { 
+        width: calc(50% - 15px);
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .footerRow {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerCol {
+        margin-bottom: 50px;
+    }
+    .footerCol:first-child {
+        margin-bottom: 0;
+
+    }
+}
+
+@media (max-width: 760px) {
+    .headerTitle {
+        font-size: 32px;
+    }
+    .haderSubtitle {
+        font-size: 14px;
+    }
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .portfolioHeader {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .portfolioCardWrapper {
+        justify-content: center;
+    }
+    .card {
+        max-width: 530;
+        width: 100%;
+    }
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+    .cardLink {
+        padding: 15px;
+    }
+    .cardImage {
+        margin-bottom: 10px;
+    }
+    .cardTitle {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    .footerCopyrightName {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .footerCopyright p {
+        font-size: 14px;
+    }
+    .footerIcons p {
+        font-size: 14px;
+    }
+    .footerContacts p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .project {
+        padding: 40px 0 60px;
+    }
+    .projectHeader {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .projectImage {
+        margin-bottom: 20px;
+    }
+    .projectDescription {
+        margin-bottom: 50px;
+    }
+
+    .projectButtonBack {
+        padding: 0 10px;
+        width: 100%;
+        max-width: 320px;
+    }
+}
