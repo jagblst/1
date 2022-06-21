@@ -11,7 +11,7 @@ const preloader = document.querySelector('#preloader');
 const currentDate = new Date().getFullYear(); // 2020
 const nextDate = new Date(`June 29 ${currentDate} 16:00:00`);
 
-// Устанавливаем год на страницу
+// Устанавливаем дату на страницу
 
 
 function updateCounter() {
@@ -24,7 +24,7 @@ function updateCounter() {
 	const hoursLeft = Math.floor(diff / 1000 / 60 / 60) % 24;
 	// Минут всего, далее остаток от преобразования в часы, минут осталось
 	const minutesLeft = Math.floor(diff / 1000 / 60) % 60;
-	// Секундк всего, далее остаток от преобразования в минуты, секунд осталось
+	// Секунд всего, далее остаток от преобразования в минуты, секунд осталось
 	const secondsLeft = Math.floor(diff / 1000) % 60;
 
 	console.log(daysLeft, hoursLeft, minutesLeft, secondsLeft);
